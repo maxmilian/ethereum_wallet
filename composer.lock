@@ -1,0 +1,274 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3a87970202f59931ac346c9241f3da1b",
+    "packages": [
+        {
+            "name": "kornrunner/keccak",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kornrunner/php-keccak.git",
+                "reference": "ad761f528f4d1e3ce378b8a0841e5f82c9973535"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kornrunner/php-keccak/zipball/ad761f528f4d1e3ce378b8a0841e5f82c9973535",
+                "reference": "ad761f528f4d1e3ce378b8a0841e5f82c9973535",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0",
+                "symfony/polyfill-mbstring": "^1.8"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "~7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "kornrunner\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Boris Momcilovic",
+                    "homepage": "https://github.com/kornrunner/php-keccak"
+                }
+            ],
+            "description": "Pure PHP implementation of Keccak",
+            "keywords": [
+                "keccak",
+                "sha-3",
+                "sha3-256"
+            ],
+            "time": "2018-07-30T22:16:23+00:00"
+        },
+        {
+            "name": "sop/asn1",
+            "version": "3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sop/asn1.git",
+                "reference": "6a198704e4928f6404cfdc38058586a795134e14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sop/asn1/zipball/6a198704e4928f6404cfdc38058586a795134e14",
+                "reference": "6a198704e4928f6404cfdc38058586a795134e14",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gmp": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ASN1\\": "lib/ASN1/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joni Eskelinen",
+                    "email": "jonieske@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP library for X.690 ASN.1 DER encoding and decoding.",
+            "homepage": "https://github.com/sop/asn1",
+            "keywords": [
+                "DER",
+                "asn.1",
+                "asn1",
+                "x.690",
+                "x690"
+            ],
+            "time": "2017-12-20T08:56:15+00:00"
+        },
+        {
+            "name": "sop/crypto-encoding",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sop/crypto-encoding.git",
+                "reference": "b5958cc213d3092cb9fa7be179adf760a8fde1f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sop/crypto-encoding/zipball/b5958cc213d3092cb9fa7be179adf760a8fde1f6",
+                "reference": "b5958cc213d3092cb9fa7be179adf760a8fde1f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sop\\CryptoEncoding\\": "lib/CryptoEncoding"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joni Eskelinen",
+                    "email": "jonieske@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP implementation of textual encodings of cryptographic structures.",
+            "homepage": "https://github.com/sop/crypto-encoding",
+            "keywords": [
+                "Private Key",
+                "certificate",
+                "pem",
+                "public key"
+            ],
+            "time": "2017-11-03T11:35:37+00:00"
+        },
+        {
+            "name": "sop/crypto-types",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sop/crypto-types.git",
+                "reference": "1d36250a110b07300aeb003a20aeaadfc6445501"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sop/crypto-types/zipball/1d36250a110b07300aeb003a20aeaadfc6445501",
+                "reference": "1d36250a110b07300aeb003a20aeaadfc6445501",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gmp": "*",
+                "php": ">=7.0",
+                "sop/asn1": "^3.2.0",
+                "sop/crypto-encoding": "^0.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sop\\CryptoTypes\\": "lib/CryptoTypes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joni Eskelinen",
+                    "email": "jonieske@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PHP library of various ASN.1 types for cryptographic applications.",
+            "homepage": "https://github.com/sop/crypto-types",
+            "keywords": [
+                "Private Key",
+                "algorithm identifier",
+                "asn1",
+                "cryptography",
+                "ec",
+                "public key",
+                "rsa",
+                "signature"
+            ],
+            "time": "2017-11-08T09:15:14+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2018-09-21T13:07:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
